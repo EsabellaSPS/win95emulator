@@ -1,16 +1,23 @@
 body {
+  padding-top: 200px;
+  background-color: #007F7F;
 }
 .dialog-box{
   border-width:3px;
   border-style:groove;
   padding:1px;
   margin:0 auto;
+  background-color: #C0C0C0;
+  width: 500px;
+  height: 150px;
 }
 
 .title{
   height:18px;
   width:495px;
   padding:2px;
+  background-color: #000080;
+  font-family: Tahoma;
 }
 
 .title p{
@@ -96,3 +103,18 @@ input {
   border-style:solid;
   margin-bottom:8px;
 }
+
+/*.ok button {
+  border-width: 2px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin:2px 2px 2px 0;
+  float:right;
+  width:15px;
+  height:15px;
+} 
+*/
